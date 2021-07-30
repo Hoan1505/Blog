@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bfc8e4a-8d30-45db-ad31-5c26dbccab08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.env" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +18,16 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/index.php">
+        <entry file="file://$PROJECT_DIR$/blog/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/Procfile">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -46,8 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/database/migrations/2021_07_25_084021_create_category_table.php" />
-        <option value="$PROJECT_DIR$/blog/database/migrations/2021_07_25_082117_create_blog_table.php" />
         <option value="$PROJECT_DIR$/blog/public/sbadmin2/blank.html" />
         <option value="$PROJECT_DIR$/blog/public/sbadmin2/css/main.css" />
         <option value="$PROJECT_DIR$/blog/resources/views/backend/partial/footer.blade.php" />
@@ -97,6 +105,8 @@
         <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Frontend/HomeController.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/frontend/content/blog/blog_filter.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/frontend/content/home.blade.php" />
+        <option value="$PROJECT_DIR$/blog/index.php" />
+        <option value="$PROJECT_DIR$/blog/.env" />
       </list>
     </option>
   </component>
@@ -307,12 +317,12 @@
       <workItem from="1627535070644" duration="23544000" />
       <workItem from="1627619898749" duration="5307000" />
       <workItem from="1627636687346" duration="1932000" />
-      <workItem from="1627640676748" duration="706000" />
+      <workItem from="1627640676748" duration="1825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203730000" />
+    <option name="totallyTimeSpent" value="204849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -346,18 +356,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -665,9 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-106">
@@ -681,8 +676,27 @@
     <entry file="file://$PROJECT_DIR$/blog/public/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Procfile">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
