@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4bfc8e4a-8d30-45db-ad31-5c26dbccab08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/.env" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/index.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,15 +20,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/Procfile">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -56,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/public/sbadmin2/blank.html" />
         <option value="$PROJECT_DIR$/blog/public/sbadmin2/css/main.css" />
         <option value="$PROJECT_DIR$/blog/resources/views/backend/partial/footer.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/backend/layout/main.blade.php" />
@@ -107,6 +101,7 @@
         <option value="$PROJECT_DIR$/blog/resources/views/frontend/content/home.blade.php" />
         <option value="$PROJECT_DIR$/blog/index.php" />
         <option value="$PROJECT_DIR$/blog/.env" />
+        <option value="$PROJECT_DIR$/blog/.gitignore" />
       </list>
     </option>
   </component>
@@ -317,15 +312,15 @@
       <workItem from="1627535070644" duration="23544000" />
       <workItem from="1627619898749" duration="5307000" />
       <workItem from="1627636687346" duration="1932000" />
-      <workItem from="1627640676748" duration="1825000" />
+      <workItem from="1627640676748" duration="2503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204849000" />
+    <option name="totallyTimeSpent" value="205527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16375838" />
@@ -356,9 +351,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -691,10 +683,17 @@
     <entry file="file://$PROJECT_DIR$/blog/Procfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
