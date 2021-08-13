@@ -35,6 +35,7 @@ class CategoryController extends Controller
             ->join("category","blog.cat_id","=","category.id")
             ->join("users","blog.user_id","=","users.id")
             ->select("blog.*","users.name","category.category_name")
+            ->orderBy("id","asc")
             ->paginate(12);
         return view("frontend.content.blog.blog_filter",["blog"=>$blog]);
     }
@@ -42,7 +43,7 @@ class CategoryController extends Controller
     public function search(Request $request){
         if ($request->text){
             $search = DB::table("users")
-                ->where("users.name","like","%".$request->text."%")
+                ->whereRaw("LOWER(users.name) LIKE ? ", "%".strtolower($request->text)."%")
                 ->join("blog","users.id","=","blog.user_id")
                 ->join("category","category.id","=","blog.cat_id")
                 ->select("blog.*","users.name","category.category_name")
